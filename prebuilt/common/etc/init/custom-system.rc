@@ -1,0 +1,3 @@
+on boot
+    # allow system to communicate pocket state
+    chown system system /sys/kernel/pocket_judge/inpocket
